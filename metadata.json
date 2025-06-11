@@ -1,0 +1,10 @@
+{
+    "uuid": "countdown@theo",
+    "name": "Countdown",
+    "description": "Based on daysCountdown@KopfDesDaemons, but a lot mroe flexible. Countdown of the remaining days to a date.",
+    "version": "2.0",
+    "max-instances": "50",
+    "author": "theo",
+    "prevent-decorations": true,
+    "last-edited": 1749601931
+}

@@ -1,0 +1,154 @@
+{
+    "heading": {
+        "type": "header",
+        "description": "Countdown Settings"
+    },
+    "labelText": {
+        "type": "entry",
+        "default": "Birthday Countdown",
+        "description": "What are you counting down to?"
+    },
+    "countdownDate": {
+        "type": "datechooser",
+        "description": "When is it?",
+        "default": {
+            "d": 22,
+            "m": 4,
+            "y": 2026
+        }
+    },
+    "countdownTime": {
+        "type": "timechooser",
+        "description": "At what time?",
+        "default": {
+            "h": 0,
+            "m": 0,
+            "s": 0
+        }
+    },
+    "refreshInterval": {
+        "type": "combobox",
+        "default": "1",
+        "description": "Refresh countdown every:",
+        "options": {
+            "Every second": "1",
+            "5 seconds": "5",
+            "30 seconds": "30",
+            "Minute": "60",
+            "Hour": "3600",
+            "Only after starting": "only-after-starting"
+        }
+    },
+    "heading-style": {
+        "type": "header",
+        "description": "Text Style Settings"
+    },
+    "showLabel": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show label text"
+    },
+    "fontFamilyLabel": {
+        "type": "entry",
+        "default": "Ubuntu",
+        "description": "Label Font Family"
+    },
+    "fontSizeLabel": {
+        "type": "spinbutton",
+        "min": 8,
+        "max": 100,
+        "step": 1,
+        "default": 12,
+        "units": "pt",
+        "description": "Label Font Size"
+    },
+    "colorLabel": {
+        "type": "colorchooser",
+        "default": "#fff",
+        "description": "Label Text Color"
+    },
+    "fontFamilyCountdown": {
+        "type": "entry",
+        "default": "Ubuntu Mono",
+        "description": "Countdown Font Family"
+    },
+    "fontSizeCountdown": {
+        "type": "spinbutton",
+        "min": 12,
+        "max": 100,
+        "step": 1,
+        "default": 24,
+        "units": "pt",
+        "description": "Countdown Font Size"
+    },
+    "colorCountdown": {
+        "type": "colorchooser",
+        "default": "#fff",
+        "description": "Countdown Text Color"
+    },
+    "heading-appearance": {
+        "type": "header",
+        "description": "Container Appearance Settings"
+    },
+    "backgroundColor": {
+        "type": "colorchooser",
+        "default": "rgba(0,0,0,0.5)",
+        "description": "Background Color"
+    },
+    "borderColor": {
+        "type": "colorchooser",
+        "default": "rgba(255,255,255,0.5)",
+        "description": "Border Color"
+    },
+    "borderWidth": {
+        "type": "spinbutton",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "default": 0,
+        "units": "px",
+        "description": "Border Width"
+    },
+    "cornerRadius": {
+        "type": "spinbutton",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "default": 24,
+        "units": "px",
+        "description": "Corner Radius"
+    },
+    "padding": {
+        "type": "spinbutton",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "default": 10,
+        "units": "px",
+        "description": "Padding"
+    },
+    "heading-advanced": {
+        "type": "header",
+        "description": "Advanced Display Settings"
+    },
+    "showDays": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show days"
+    },
+    "showHours": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show hours"
+    },
+    "showMinutes": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show minutes"
+    },
+    "showSeconds": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show seconds"
+    }
+}
