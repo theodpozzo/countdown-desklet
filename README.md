@@ -2,7 +2,8 @@
 
 A highly customizable desklet for the Linux Mint Cinnamon desktop that allows you to count down to any specific date and time. Features a full settings panel, extensive styling options, and a visual alarm when the countdown completes.
 
-> ***Note:** Make sure to include `screenshot.png` with an actual screenshot of desklet running on my desktop.*
+![desktop](https://github.com/user-attachments/assets/61bd9e3a-8174-4291-9063-a80b00fc31e7)
+> ***Note:** The image shows `desktop.png`: an actual screenshot of desklet running on my desktop.*
 
 ## Features
 
@@ -55,7 +56,8 @@ All features of this desklet can be configured through its settings panel.
 
   - Right-click on the desklet and select **"Configure"**.
 
-> ***Note:** Make sure to include `settings.png` with a screenshot of the desklet's settings window.*
+![settings](https://github.com/user-attachments/assets/074f9c5f-eb3b-4f78-b18d-ec8c432634ac)
+> ***Note:** The image shows `settings.png`: a screenshot of the desklet's settings window.*
 
 The settings panel allows you to control everything from the target date and time to all the visual styles and display options mentioned in the features list.
 
